@@ -61,7 +61,8 @@ public class DriveBase extends SubsystemBase {
   @Override
   public void periodic() {
     /*Calling the SmartDashBoard object with putNumber method to display the Z angle on the SmartDashboard. 
-     The "Angle" string acts as a label for the getAngle() values we will get on the SmartDashboard.
+     The "Angle" string acts as a label for the getAngle() values we will get on the SmartDashboard. 
+     This keeps running forever as the drive base moves.
     */
     m_smartDashBoard.putNumber("Angle", getAngle()); 
 

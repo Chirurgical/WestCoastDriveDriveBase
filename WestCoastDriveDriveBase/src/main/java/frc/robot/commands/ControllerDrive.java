@@ -19,7 +19,8 @@ public class ControllerDrive extends CommandBase {
    * @param subsystem The subsystem used by this command.
    */
 
-   //Class constructor to declare  
+   //Class constructor to declare parameters. Set fields to equal values of the parameters,
+ 
   public ControllerDrive(DriveBase driveBase, double forwardAndBackward, double leftAndRight) {
     m_driveBase = driveBase;
     this.forwardAndBackward = forwardAndBackward;
