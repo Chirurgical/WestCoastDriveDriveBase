@@ -26,6 +26,7 @@ public class RobotContainer {
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
+    //Creating a new object with the ControllerDrive class constructor so that it is running.
     m_driveBase.setDefaultCommand(new ControllerDrive(m_driveBase, m_XboxController.getLeftY(), m_XboxController.getRightX()));
 
     // Configure the button bindings
